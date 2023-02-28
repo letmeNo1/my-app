@@ -1,0 +1,105 @@
+.py-3 {
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
+  
+.bg-primary {
+    background-color: var(--bg-color-primary);
+}
+
+.md\:-ml-1-1\/2 {
+    margin-left: -12px;
+}
+
+.md\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+
+.md\:h-42 {
+    height: 42px;
+}
+
+
+.md\:flex-row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.tab-bar {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.tab-bar-tab.active {
+    --tw-text-opacity: 1;
+    color: rgb(130 69 165/var(--tw-text-opacity));
+}
+
+.tab-bar-tab {
+    color: var(--text-color-secondary);
+    padding-left: 12px;
+    padding-right: 12px;
+}
+  
+.md\:pt-0 {
+    padding-top: 0;
+}
+
+a, a:hover {
+    --tw-text-opacity: 1;
+    color: rgb(14 108 219/var(--tw-text-opacity));
+}
+
+a {
+    text-decoration-line: none;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-property: color,background-color,border-color,text-decoration-color,fill,stroke;
+    -o-transition-property: color,background-color,border-color,text-decoration-color,fill,stroke;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke;
+    -webkit-transition-timing-function: cubic-bezier(.4,0,.2,1);
+    -o-transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+
+aside {
+   display: block;
+}
+  
+
+.max-w-xl {
+    max-width: 1280px;
+}
+.w-90vw {
+    width: 90vw;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.md\:gap-0 {
+    gap: 0;
+}

@@ -1,0 +1,114 @@
+
+*, :after, :before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.max-w-xl {
+  max-width: 1280px;
+}
+
+.md\:px-3 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.w-90vw {
+  width: 90vw;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+:root {
+  --bg-color-primary: #fff;
+  --bg-color-secondary: #fafafa;
+  --bg-color-ternary: #fff;
+  --bg-color-code: #eee;
+  --bg-color-action-toggle: #eee;
+  --text-color-primary: #333;
+  --text-color-secondary: #666;
+  --text-color-ternary: #737373;
+  --border-color-primary: #eee;
+  --border-color-secondary: #fafafa;
+  --border-color-ternary: #eee;
+  --border-color-quaternary: #eee;
+  --border-color-input: #eee;
+  --text-color-btn: #0e6cdb;
+  --bg-color-action: #f2f2f2;
+  --bg-color-action-hover: #ebf5fe;
+  --shadow-btn: 0 2px 4px 0 rgba(0,0,0,.04),0 1px 1px 0 rgba(0,0,0,.06);
+  --shadow-px: transparent;
+}
+
+.project-badge {
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 3px;
+}
+
+*, :after, :before {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(14,108,219,.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+
+*, :after, :before {
+  border-color: var(--border-color-primary);
+  border-style: solid;
+  border-width: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
